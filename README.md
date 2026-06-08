@@ -20,3 +20,11 @@
 * **Key Tool:** `max_leaf_nodes` parameter to control tree size
 * **Method:** Looped through candidate values [5, 25, 50, 100, 250, 500], calculated MAE for each, selected best
 * **Final Result:** Identified optimal `max_leaf_nodes` value using validation MAE
+
+---
+
+### Random Forests Complete
+* **Concept Mastered:** Random Forest builds many trees and averages predictions, canceling out individual tree errors
+* **Model Used:** `RandomForestRegressor` from `sklearn.ensemble`
+* **Result:** Validation MAE of 21,857 vs Decision Tree's 29,652 — same data, better model, zero extra tuning
+* **Key Insight:** More trees = errors cancel out = better predictions than any single tree
