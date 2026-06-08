@@ -12,3 +12,11 @@
 * **Concept Mastered:** Overfitting, and why testing a model on its training data creates a dangerous "memorization" trap.
 * **Metrics Applied:** Calculated Mean Absolute Error (MAE) using `val_y` and `val_predictions` to see the true real-world error.
 * **Final Result:** Out-of-sample validation error came out to approximately $29,653.
+
+---
+
+### Underfitting and Overfitting Complete
+* **Concept Mastered:** How tree depth controls the underfitting/overfitting tradeoff
+* **Key Tool:** `max_leaf_nodes` parameter to control tree size
+* **Method:** Looped through candidate values [5, 25, 50, 100, 250, 500], calculated MAE for each, selected best
+* **Final Result:** Identified optimal `max_leaf_nodes` value using validation MAE
