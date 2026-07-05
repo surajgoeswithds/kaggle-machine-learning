@@ -35,4 +35,17 @@
 * **What I learned:** I upgraded from a single Decision Tree to a Random Forest model. Random Forests use many trees together to make much better guesses.
 * **Key Step:** After finding the best model settings, I retrained the model on 100% of the data (both training and validation combined) so it could learn as much as possible before the final test.
 * **Results:** * My model's average error dropped down to **$21,857**.
-  * I used the model to guess house prices for the final test data (`test.csv`) to submit to the Kaggle.
+* I used the model to guess house prices for the final test data (`test.csv`) to submit to the Kaggle.
+  
+  ---
+
+## 📁 Project Folders
+
+### `KAAGLE 1ST TITANIC/`
+Titanic survival classification — RandomForestClassifier, 
+score 0.73444. See folder README for details.
+
+### `KAAGLE HOUSE PRICES/`
+House price regression — RandomForestRegressor baseline, 
+RMSLE 0.15366. Categorical features not yet included 
+(known limitation, see folder README).
